@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: light --default;
+}
+@plugin "tailwindcss-motion";
+
+@theme {
+  --color-myGreen-500: oklch(50% 0.3 180);
+
+  --font-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
+
+  --breakpoint-320: 20rem; /* 320px */
+  --breakpoint-375: 23.5rem; /* 375px */
+  --breakpoint-424: 26.5rem; /* 424px */
+  --breakpoint-480: 30rem; /* 480px */
+  --breakpoint-640: 40rem; /* 640px */
+  --breakpoint-768: 48rem; /* 768px */
+  --breakpoint-1024: 64rem; /* 1024px */
+  --breakpoint-1280: 80rem; /* 1280px */
+  --breakpoint-1440: 90rem; /* 1440px */
+  --breakpoint-1920: 120rem; /* 1920px */
+  --breakpoint-2560: 160rem; /* 2560px */
+
+  --text-12: 0.75rem; /* 12px */
+  --text-14: 0.875rem; /* 14px */
+  --text-16: 1rem; /* 16px */
+  --text-16--line-height: calc(1 / 0.75);
+  --text-20: 1.25rem; /* 20px */
+  --text-24: 1.5rem; /* 24px */
+  --text-30: 1.875rem; /* 30px */
+  --text-36: 2.25rem; /* 36px */
+  --text-48: 3rem; /* 48px */
+  --text-60: 3.75rem; /* 60px */
+  --text-72: 4.5rem; /* 72px */
+  --text-96: 6rem; /* 96px */
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  overflow-x: hidden;
+}
