@@ -1,65 +1,65 @@
 # Vue 3 Fullscreen Scaffolding
 
-Este es un proyecto scaffolding de **Vue 3** que incluye funcionalidad de pantalla completa y componentes de **Daisy UI** para acelerar el desarrollo de aplicaciones web modernas.
+This is a **Vue 3** scaffolding project that includes fullscreen functionality and **Daisy UI** components to accelerate modern web application development.
 
-## ✨ Características
+## ✨ Features
 
-- **Vue 3** con Composition API
-- **TypeScript** para tipado estático
-- **Funcionalidad Fullscreen** - Alterna entre modo normal y pantalla completa
-- **Daisy UI** - Componentes de tabla estilizados y sistema de diseño
-- **Vue Router** para navegación
-- **Tailwind CSS** para estilos
-- **Vitest** para testing unitario
-- **ESLint** para linting del código
+- **Vue 3** with Composition API
+- **TypeScript** for static typing
+- **Fullscreen Functionality** - Toggle between normal and fullscreen mode
+- **Daisy UI** - Styled table components and design system
+- **Vue Router** for navigation
+- **Tailwind CSS** for styling
+- **Vitest** for unit testing
+- **ESLint** for code linting
 
-## 🏗️ Arquitectura
+## 🏗️ Architecture
 
-El proyecto incluye:
+The project includes:
 
-- Layout principal con TopBar y LeftBar
-- Composable para manejo de fullscreen
-- Componente CustomTable con estilos de Daisy UI
-- Sistema de rutas configurado
-- Tests unitarios para componentes del layout con Vitest
+- Main layout with TopBar and LeftBar
+- Composable for fullscreen management
+- CustomTable component with Daisy UI styles
+- Configured routing system
+- Unit tests for layout components with Vitest
 
-## 💻 IDE Recomendado
+## 💻 Recommended IDE
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (y deshabilitar Vetur).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## 🔧 Soporte de tipos para archivos `.vue` en TS
+## 🔧 Type Support for `.vue` Imports in TS
 
-TypeScript no puede manejar información de tipos para importaciones `.vue` por defecto, por lo que reemplazamos el CLI `tsc` con `vue-tsc` para verificación de tipos. En editores, necesitamos [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) para hacer que el servicio de lenguaje TypeScript sea consciente de los tipos `.vue`.
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## ⚙️ Configuración personalizada
+## ⚙️ Customize configuration
 
-Ver [Referencia de configuración de Vite](https://vite.dev/config/).
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-## 🚀 Configuración del proyecto
+## 🚀 Project Setup
 
 ```sh
 npm install
 ```
 
-### Compilar y Hot-Reload para desarrollo
+### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
 
-### Verificación de tipos, compilar y minificar para producción
+### Type-Check, Compile and Minify for Production
 
 ```sh
 npm run build
 ```
 
-### Ejecutar tests unitarios con [Vitest](https://vitest.dev/)
+### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
 ```
 
-### Linting con [ESLint](https://eslint.org/)
+### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
